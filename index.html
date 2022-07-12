@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Gioxox21</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css">
+  <link rel="icon" href="./logo.png">
+
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="logo.png" alt="" width="50" height="50">
+    </div>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="texturepack.html">Texture Pack</a></li>
+      <li><a href="contattami.html">Contattami</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero__content reveal">
+      <h1 class="big-text">Gioxox21</h1>
+      <a href="./contattami.html" class="button">Vuoi contattarmi?</a>
+    </div>
+    <video autoplay muted loop id="video-back">
+      <source src="./background.gif" type="gif">
+    </video>
+  </div>
+
+
+
+  <div class="poster mt-3">
+    <div class="poster__img reveal">
+      <img src="./ice.png" alt="">
+    </div>
+    <div class="poster__content reveal">
+      <h3 class="big-text">Nuovo Post!</h3>
+      <p>Lo sapevi che il colore del mio canale youtube è l'azzurro, proprio come un enorme ghiacciaio.</p>
+      <a href="" class="button"> Torna su!  </a>
+    </div>
+  </div>
+
+  <div class="grid mt-3">
+    <div class="col reveal">
+      <h3 class="big-text">Alcuni dei miei <br/> video</h3>
+    </div>
+    <div class="col reveal">
+      <p class="mt-2 mt-sma-0"></p>
+    </div>
+  </div>
+
+
+
+  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom">
+        <a href="https://www.youtube.com/watch?v=-PAMmaXBRe8" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 174, 255); font-size: 20pt;">CoralMC Montage</a>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom">
+        <a href="https://www.youtube.com/watch?v=7eWIl62_pUw" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 174, 255); font-size: 20pt;">RICHIESTE di ASSISTENZA</a>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom">
+        <a href="https://www.youtube.com/watch?v=tixjTDM" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 174, 255); font-size: 20pt;">RANK YOUTUBER SU EDENMINE</a>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom">
+        <a href="https://www.youtube.com/watch?v=FC0Ou5CKIoA" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 174, 255); font-size: 20pt;">DIVENTARE UN GIGACHAD</a>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom">
+        <a href="https://www.youtube.com/watch?v=VN9_Snhevw4" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 174, 255); font-size: 20pt;">DUELLO UN MOD</a>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content">
+        <a href="https://www.youtube.com/watch?v=EO3JiqSsjac" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 174, 255); font-size: 20pt;">DUELLO CARPYY E SVANTAGGIO</a>
+      </div>
+    </div>
+
+  </div>
+
+<footer class="footer">
+  <div class="grid">
+    <div class="col reveal">
+      <a href="https://youtube.com/c/Gioxox21" class="normal-text tw"> YouTube </a>
+      <img src="./LogoYouTube.png" alt="" width="50" height="50">
+    </div>
+    <div class="col reveal">
+      <a href="https://disc.gg/Gioxox21" class="normal-text tw"> Discord </a>
+      <img src="./LogoDiscord.png" alt="" width="50" height="50">
+    </div>
+    <div class="col reveal">
+      <a href="https://t.me/Gioxox" class="normal-text tw"> Telegram </a>
+      <img src="./LogoTelegram.png" alt="" width="50" height="50">
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    /* Open Panel */
+    $( ".hamburger" ).on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+
+  });
+
+
+  ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+  ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
+
+
+
+</script>
+
+
+</body>
+</html>
