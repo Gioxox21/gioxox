@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link rel="icon" href="./logo.png">
 
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 </head>
 <body>
 
@@ -34,6 +36,14 @@
     </div>
   </div>
 
+  <div class="poster mt-3">
+    <div class="poster__content reveal">
+      <h3 class="big-text">Ecco tutti i miei SOCIAL!</h3>
+      <p>Ti piaccio nei video? Allora passi in tutti i social, magari potrai parlare con me.</p>
+      <a href="" class="button"> Torna su!  </a>
+    </div>
+  </div>
+
   <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
     <div class="carousel-cell">
       <div class="carousel-cell__content zoom">
@@ -55,16 +65,7 @@
         
       </div>
     </div>
-    <div class="carousel-cell">
-      <div class="carousel-cell__content zoom">
-        
-      </div>
     </div>
-
-  </div>
-
-
-  </div>
 
   <footer class="footer">
     <div class="grid">
@@ -83,9 +84,6 @@
     </div>
   </footer>
 
-
-
-
   <!-- Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -100,6 +98,10 @@
     });
 
   });
+
+  ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+  ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
 </script>
 
 
